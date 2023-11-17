@@ -1,5 +1,4 @@
 import tkinter as tk
-from Bard import Chatbot
 import pygame
 from gtts import gTTS
 import os
@@ -10,11 +9,6 @@ import warnings
 import google.generativeai as palm
 
 pygame.mixer.init()
-
-#token1 = 'cAigQfVXM0EPm5qjobsc2FrjzTU_gmtX5HuErEh4MmymT2oNWKuA4BwnLELy1DIt1JaUaw.'
-#token2 = 'sidts-CjIBNiGH7pAYEe5I7lIbDs-w4w3xlVJvSzlJZmlqlwMuWE2EaLm8ZsMzUeGdY17AJrmufRAA'
-#hatbot = Chatbot(token1, token2)
-
 palm.configure(api_key="AIzaSyB6D_z_aH6b4JsJJf5aWL-j1hMZbaW9nGQ")
 
 
